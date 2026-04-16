@@ -19,16 +19,20 @@
     </header>
     <main>
         <div class="glass-card">
-            <h2>Add New Course</h2>
+            <h2>Add Course</h2>
             <div class="form-group">
-                <label>Course Name</label>
+                <label class="form-label">Course Name</label>
                 <input type="text" placeholder="Enter course name">
             </div>
             <div class="form-group">
-                <label>Instructor</label>
+                <label class="form-label">Instructor</label>
                 <input type="text" placeholder="Enter instructor name">
             </div>
-            <button>Save Course</button>
+            <div class="form-group">
+                <label class="form-label">Schedule</label>
+                <input type="text" placeholder="e.g. Sun & Tue - 10:00 AM">
+            </div>
+            <button>Add Course</button>
         </div>
     </main>
 </body>
